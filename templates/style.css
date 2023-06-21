@@ -1,0 +1,16 @@
+@media (min-width: 576px) {
+    /* On small screens, set the form width to 100% */
+    .container {
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* On medium screens, center the form */
+    .container {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
